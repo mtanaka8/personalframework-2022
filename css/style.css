@@ -103,7 +103,6 @@
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    border-bottom: 5px solid rgb(74, 40, 198);
     display: table;
     padding: 0 0 0.5em 0;
     margin: 1em auto 3em auto;
@@ -112,7 +111,7 @@
   /* BUTTONS */
   .button {
     display: inline-block;
-    background-color: rgb(39, 17, 106);
+    background-color: rgb(231, 176, 148);
     color: #fff;
     text-decoration: none;
     padding: 1em;
@@ -247,7 +246,8 @@
   
   /* SITE STRUCUTURE */
   .site-header {
-    background: rgb(71, 51, 181);
+    position: absolute;
+    width: 100%;
     padding: 1em;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -305,12 +305,24 @@
   
   /* HERO SECTION */
   .hero {
-    background-color: rgb(177, 180, 240);
+    background-image: linear-gradient(to bottom right, #2b27b3, #c076f8);
     text-align: center;
-    padding: 6em 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10em 0 6em 0;
+    color: white;
+    min-height: 100vh;
   }
   .hero h1 {
     margin-bottom: 0.25em;
+    color: white;
   }
   .hero p {
     margin: 1em auto;
