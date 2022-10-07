@@ -95,6 +95,13 @@
     color: rgba(0, 0, 0, 0.5);
     margin: 0.25em 0;
   }
+
+  /* HELPERS */
+.hide-visually {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
   
   /* SECTION HEADING */
   .section-heading {
@@ -111,14 +118,14 @@
   /* BUTTONS */
   .button {
     display: inline-block;
-    background-color: rgb(231, 176, 148);
+    background-color: rgb(255, 175, 194);
     color: #fff;
     text-decoration: none;
     padding: 1em;
     border-radius: 5px;
   }
   .button:hover {
-    background-color: rgb(96, 48, 192);
+    background-color: rgb(255, 224, 229);
   }
   
   /* RESPONSIVE IMAGES */
@@ -270,7 +277,7 @@
   
   /* SITE FOOTER */
   .site-footer {
-    background: rgb(45, 17, 200);
+    background-image: linear-gradient(to bottom right, #2b27b3, #c076f8);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
